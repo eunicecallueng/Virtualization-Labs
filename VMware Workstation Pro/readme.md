@@ -26,7 +26,7 @@ Since I’m using **Windows OS**, here’s what I did:
 
 1. Pressed **Ctrl + Shift + Esc** to open Task Manager → went to the **Performance tab → CPU** to check if Virtualization was Enabled.  
    - In my case, it was already enabled (you can see it under CPU details).
-      ![CPU details showing Virtualization Enabled](CPU-details.jpeg)
+      ![CPU details showing Virtualization Enabled](CPU-details.jpg)
 
 
 But just in case it’s disabled, you’ll need to enable it via BIOS/UEFI.
