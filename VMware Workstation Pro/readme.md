@@ -86,7 +86,7 @@ Follow these steps to install **VMware Workstation Pro** on Windows:
      - Choose installation directory (default is fine)  
      - I didn’t select the **Join Customer Experience Improvement Program** option
     
-       ![VMware installation wizard](VMware-installatio-nwizard.png)
+       ![VMware installation wizard](VMware-installation-wizard.png)
 
 4. **Create Shortcuts**  
    - Select whether you want desktop/start menu shortcuts.  
