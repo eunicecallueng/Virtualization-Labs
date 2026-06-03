@@ -101,9 +101,27 @@ Follow these steps to install **VMware Workstation Pro** on Windows:
 
 ---
 
-## 🔧 Post-Installation Setup
+## Post-Installation Notes
 
-### Create Your First VM
+After installation is complete, VMware will automatically install various drivers.  
+To verify this, you can check your **Network Connections**:
+
+1. Press **Win + R** to open the Run dialog.  
+2. Type `ncpa.cpl` and press **Enter**.
+
+![ncpa.cpl](ncpa.cpl.png)
+ 
+3. The **Network Connections** window will open.
+
+![Network Connections](Network-connections.png)
+
+4. You’ll notice that VMware has installed a new **network adapter**.  
+
+👉 Don’t worry if a new adapter suddenly appears — that’s required for VMware. It creates a **virtual adapter** so your virtual machines can connect to networks properly.
+
+---
+
+### Creating my First VM
 1. Open **VMware Workstation Pro**.  
 2. Click **Create a New Virtual Machine**.  
 3. Choose **Typical (recommended)**.  
