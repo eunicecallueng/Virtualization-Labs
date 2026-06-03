@@ -8,12 +8,14 @@ The reason is that during GNS3 setup, it will detect VMware and make configurati
 By installing VMware first, I make sure my environment is ready and smooth for the next steps.
 
 
+
 ---
 
 ## Why VMware Workstation Pro?
 - Reliable virtualization platform for running multiple VMs.  
 - Easy integration with networking labs (like GNS3).  
 - Good balance of performance and usability for practice environments.  
+
 
 
 ---
@@ -29,23 +31,34 @@ Since I’m using **Windows OS**, here’s what I did:
       ![CPU details showing Virtualization Enabled](CPU-details.jpg)
 
 
-But just in case it’s disabled, you’ll need to enable it via BIOS/UEFI.
-
-1.. Restart your  PC and pressed the BIOS/UEFI access key repeatedly during boot (commonly **F2, F10, F12, Delete, or Esc**, depending on the manufacturer).  
-
-3. Alternatively, I tested the Windows method: **Hold Shift while selecting Restart → Troubleshoot → Advanced options → UEFI Firmware Settings → Restart.**
-
-4. Inside BIOS/UEFI, I navigated to the **Advanced / CPU Configuration** section.  
-   - For Intel CPUs: enabled **Intel Virtualization Technology (VT‑x)**.  
-   - For AMD CPUs: enabled **SVM Mode**.  
-
-5. Saved changes and exited BIOS/UEFI (usually by pressing **F10** and confirming).  
-
-6. After reboot, I opened Task Manager again and confirmed **Virtualization: Enabled** under the Performance tab.  
-
-With virtualization enabled, I was ready to proceed with installing VMware Workstation Pro.
 
 
+## If virtualization is disabled, you’ll need to enable it via BIOS/UEFI. Follow these steps:
+
+1. **Restart your PC** and press the BIOS/UEFI access key repeatedly during boot.  
+   - Common keys: **F2, F10, F12, Delete, or Esc** (varies by manufacturer).  
+   
+   **Alternative method (Windows):**  
+   - Hold **Shift** while selecting **Restart**.
+      
+2. Go to **Troubleshoot → Advanced options → UEFI Firmware Settings**.  
+
+3. **Inside BIOS/UEFI:**  
+   - Navigate to **Advanced / CPU Configuration**.  
+      - For Intel CPUs: enable **Intel Virtualization Technology (VT‑x)**.  
+      - For AMD CPUs: enable **SVM Mode**.  
+
+4. **Save changes and exit BIOS/UEFI** (usually by pressing **F10** and confirming).  
+
+5. **After reboot:**  
+   - Open Task Manager again (**Ctrl + Shift + Esc → Performance tab → CPU**)  
+   - Confirm that **Virtualization: Enabled** is now displayed.  
+
+With virtualization enabled, you’re ready to proceed with installing VMware Workstation Pro.
+
+
+
+---
 
 ## Installation Steps
 
