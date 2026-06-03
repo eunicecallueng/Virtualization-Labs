@@ -68,13 +68,15 @@ Follow these steps to install **VMware Workstation Pro** on Windows:
    - Go to the official VMware website.  
    - To download the latest VMware Workstation Pro installer for Windows, you’ll need to create a **Broadcom account**.
    - Once logged in, click **My Downloads → Here**, then search for **VMware Workstation Pro** in the list.
-     -
-           ![Broadcom My Downloads](Broadcom1.png)
-  
-     -
-           ![WMware lists](Broadcom2.png)
+   
+     ![Broadcom My Downloads](Broadcom1.png)
 
-   - Choose the version you want (at the time of creating this repo, the latest was **26H1**, so that’s what I installed).  
+     ![Search VMWare Workstation Pro](Broadcom2.png)
+
+   - Choose the version you want (at the time of creating this repo, the latest was **26H1**, so that’s what I installed).
+
+     ![VMware lists](Broadcom3.png)
+     
    - You’ll be redirected to another page — accept the **Terms and Conditions** before the download starts.  
 
 3. **Run Installer**  
