@@ -4,6 +4,7 @@ This repository documents my hands-on virtualization projects using **VMware Wor
 Each project includes setup steps, configurations, screenshots, and reflections.
 
 ## Projects
+- [VMware Workstation Pro](./VMware/README.md)
 - [GNS3 Lab](./GNS3/README.md)
 - [Wireshark Lab](./Wireshark/README.md)
 - [Zabbix Lab](./Zabbix/README.md)
