@@ -138,8 +138,3 @@ I’m using it to:
 - Prepare a base VM for my other labs (GNS3, Wireshark, Zabbix).  
 - Share reproducible steps for anyone following along.  
 
----
-
-## 🚀 Next
-- After VMware is installed, proceed to create Ubuntu VMs for Zabbix and Wireshark.  
-- Document each lab in its own subfolder.  
