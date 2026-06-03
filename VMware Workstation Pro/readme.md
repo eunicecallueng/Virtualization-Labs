@@ -62,22 +62,32 @@ With virtualization enabled, you’re ready to proceed with installing VMware Wo
 
 ## Installation Steps
 
-### 1. Download Installer
-- Go to the official VMware website.  
-- Download the latest **VMware Workstation Pro** installer for Windows.  
+Follow these steps to install **VMware Workstation Pro** on Windows:
 
-### 2. Run Installer
-- Double-click the `.exe` file.  
-- Follow the wizard prompts:  
-  - Accept license agreement  
-  - Choose installation directory (default is fine)  
-  - Enable Enhanced Keyboard Driver if needed  
+1. **Download Installer**  
+   - Go to the official VMware website.  
+   - To download the latest VMware Workstation Pro installer for Windows, you’ll need to create a **Broadcom account**.  
+   - Once logged in, click **My Downloads → Here**, then search for **VMware Workstation Pro** in the list.  
+   - Choose the version you want (at the time of creating this repo, the latest was **26H1**, so that’s what I installed).  
+   - You’ll be redirected to another page — accept the **Terms and Conditions** before the download starts.  
 
-### 3. License Key
-- Enter a valid license key (or use trial mode for practice).  
+2. **Run Installer**  
+   - Double‑click the `.exe` file.  
+   - Follow the wizard prompts:  
+     - Accept the license agreement  
+     - Choose installation directory (default is fine)  
+     - I didn’t select the **Join Customer Experience Improvement Program** option  
 
-### 4. Finish Setup
-- Complete installation and restart your PC if prompted.  
+3. **Create Shortcuts**  
+   - Select whether you want desktop/start menu shortcuts.  
+
+4. **Click Install**  
+   - Start the installation process and wait for it to complete.  
+
+6. **Finish Setup**  
+   - Complete the installation.  
+   - Restart your PC if prompted.  
+
 
 ---
 
