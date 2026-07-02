@@ -1,6 +1,6 @@
 # Virtualization Labs Portfolio
 
-This repository documents my hands-on virtualization projects using **VMware Workstation Pro**, featuring ***GNS3***, ***Wireshark***, and ***Zabbix***.  
+This repository documents my hands-on virtualization projects using **VMware Workstation Pro**, featuring ***Microsoft Active Directory***, ***GNS3***, ***Wireshark***, and ***Zabbix***.  
 Each project includes setup steps, configurations, screenshots, and reflections.
 
 ## Projects
@@ -12,5 +12,4 @@ Each project includes setup steps, configurations, screenshots, and reflections.
 
 ---
 ## About Me
-CCNA-certified IT professional transitioning into Network support and Infrastructure roles.  
-Passionate about creating beginner-friendly guides and scenario-based labs for peer learning.
+CCNA-certified IT professional passionate about creating beginner-friendly guides and scenario-based labs for peer learning.
