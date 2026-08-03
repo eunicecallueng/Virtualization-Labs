@@ -9,7 +9,7 @@ I wrote this guide to document my learning process and help fellow beginners who
 Before starting with Active Directory, you'll need to have your hypervisor ready and download the Windows Server ISO:
 
 * **Hypervisor:** VMware Workstation Pro  
-  *(If you haven't installed it yet, check out my other guide: [VMware Workstation Pro](./01.VMware-Workstation-Pro/README.md)
+  *(If you haven't installed it yet, check out my other guide: [VMware Workstation Pro](Virtualization-Labs/01.VMware-Workstation-Pro/README.md)
 * **Operating System:** [Windows Server 2022 ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) (Microsoft gives a free 180-day trial!)
 
 ---
