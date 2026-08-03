@@ -9,25 +9,12 @@ I wrote this guide to document my learning process and help fellow beginners who
 Before starting with Active Directory, you'll need to have your hypervisor ready and download the Windows Server ISO:
 
 * **Hypervisor:** VMware Workstation Pro  
-  *(If you haven't installed it yet, check out my other guide: **[VMware Workstation Pro](./01.VMware-Workstation-Pro/README.md)**
+  *(If you haven't installed it yet, check out my other guide: [VMware Workstation Pro](./01.VMware-Workstation-Pro/README.md)
 * **Operating System:** [Windows Server 2022 ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) (Microsoft gives a free 180-day trial!)
 
 ---
 
-## 🛠️ Step 1: Setting Up the Virtual Machine (VMware)
-
-First, I had to create a fresh virtual space for my server inside VMware:
-
-1. Opened **VMware Workstation Pro**.
-2. Clicked **File** > **New Virtual Machine** (or `Ctrl + N`).
-3. Selected **Typical (recommended)** and clicked **Next**.
-4. Chose **Installer disc image file (iso)** and selected the Windows Server ISO I downloaded.
-5. Configured the VM settings:
-   * **Virtual machine name:** `WS2022-DC01`
-   * **Disk Size:** `50 GB` (Single file)
-   * **RAM:** `4096 MB` (4 GB works smoothly)
-   * **Processors:** `2 Cores`
-6. Clicked **Finish** and powered on the VM.
+Once I have successfully installed VMware Worstation Pro. I proceed to installing a windows Server 20222 ISO
 
 ---
 
