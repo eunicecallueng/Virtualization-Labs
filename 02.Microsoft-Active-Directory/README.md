@@ -23,9 +23,8 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 1. **Launch VMware Workstation** — Click on **Create a New Virtual Machine** (or hit `Ctrl + N`) to open the setup wizard.
 2. **Choose Configuration Type** — Since this is just for my lab experiment, I went with **Typical (recommended)** and clicked **Next**.
 3. **OS Installation Selection** — I selected **"I will install the operating system later"**.
+ 
    ![I will install the operating system later](install-os-later.jpg)
-
-
 
    > 💡 *Pro-Tip:* Doing this skips VMware's "Easy Install" feature, which often causes annoying errors during Windows Server installation!
 4. **Select Guest OS** — I picked **Microsoft Windows**, and set the version to **Windows Server 2022**, then hit **Next**.
@@ -33,6 +32,7 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 6. **Allocate Disk Space** — I set the maximum disk size to **30 GB** (which is plenty for a basic lab environment) and clicked **Next**.
 7. **Attach the ISO File** — Before finishing, we need to make sure the VM actually boots from our downloaded Windows Server ISO:
    * Click **Customize Hardware...**
+     ![Customize Hardware](Customize-Hardware.jpg)
    * Select **New CD/DVD (SATA)** from the left menu.
    * Under **Connection** on the right side, choose **Use ISO image file**.
    * Click **Browse...** and select your downloaded Windows Server 2022 `.iso` file.
