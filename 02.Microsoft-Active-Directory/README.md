@@ -22,7 +22,11 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 
 1. **Launch VMware Workstation** — Click on **Create a New Virtual Machine** (or hit `Ctrl + N`) to open the setup wizard.
 2. **Choose Configuration Type** — Since this is just for my lab experiment, I went with **Typical (recommended)** and clicked **Next**.
-3. **OS Installation Selection** — I selected **"I will install the operating system later"**. 
+3. **OS Installation Selection** — I selected **"I will install the operating system later"**.
+   ![I will install the operating system later](I will install the operating system later.png)
+
+
+
    > 💡 *Pro-Tip:* Doing this skips VMware's "Easy Install" feature, which often causes annoying errors during Windows Server installation!
 4. **Select Guest OS** — I picked **Microsoft Windows**, and set the version to **Windows Server 2022**, then hit **Next**.
 5. **Set VM Name & Location** — Name your VM whatever you like and click **Next**.
