@@ -5,7 +5,7 @@ Each project includes setup steps, configurations, screenshots, and reflections.
 
 ## Projects
 - [VMware Workstation Pro](./01.VMware-Workstation-Pro/README.md)
-- [Microsoft Active Directory](./Microsoft-Active-Directory/README.md)
+- [Microsoft Active Directory](./02.Microsoft-Active-Directory/README.md)
 - [GNS3 Lab](./GNS3/README.md)
 - [Wireshark Lab](./Wireshark/README.md)
 - [Zabbix Lab](./Zabbix/README.md)
