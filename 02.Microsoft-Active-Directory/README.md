@@ -2,6 +2,7 @@ This is a step-by-step documentation of how I successfully installed **Windows S
 
 I wrote this guide to document my learning process and help fellow beginners who want to build their first IT lab for free!
 
+
 ---
 
 ## Prerequisites & Free Tools I Used
@@ -12,18 +13,45 @@ Before starting with Active Directory, you'll need to have your hypervisor ready
   *(If you haven't installed it yet, check out my other guide: [VMware Workstation Pro](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/01.VMware-Workstation-Pro/README.md)
 * **Operating System:** [Windows Server 2022 ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022) (Microsoft gives a free 180-day trial!)
 
----
-
-## 💿 Step 1: Installing Windows Server 2022
-
-1. Launch **VMware Workstation Pro** and create a new Virtual Machine attaching the downloaded Windows Server 2022 ISO.
-2. Boot into the installer and press any key when prompted.
-3. Select your preferred **Language**, **Time**, and **Keyboard Layout**, then click **Install Now**.
-4. ⚠️ **Crucial Step:** Select **Windows Server 2022 Datacenter (Desktop Experience)** or **Standard (Desktop Experience)** to ensure you get the full Graphical User Interface (GUI).
-5. Select **Custom: Install Windows only (advanced)** and choose your unallocated partition.
-6. Set a strong local **Administrator Password** upon first startup.
 
 ---
+
+## 🚀 Setting Up the Virtual Machine Container
+
+Here is how I configured the VM settings in VMware before booting up the OS:
+
+1. **Launch VMware Workstation** — Click on **Create a New Virtual Machine** (or hit `Ctrl + N`) to open the setup wizard.
+2. **Choose Configuration Type** — Since this is just for my lab experiment, I went with **Typical (recommended)** and clicked **Next**.
+3. **OS Installation Selection** — I selected **"I will install the operating system later"**. 
+   > 💡 *Pro-Tip:* Doing this skips VMware's "Easy Install" feature, which often causes annoying errors during Windows Server installation!
+4. **Select Guest OS** — I picked **Microsoft Windows**, and set the version to **Windows Server 2022**, then hit **Next**.
+5. **Set VM Name & Location** — Name your VM whatever you like and click **Next**.
+6. **Allocate Disk Space** — I set the maximum disk size to **30 GB** (which is plenty for a basic lab environment) and clicked **Next**.
+7. **Attach the ISO File** — Before finishing, we need to make sure the VM actually boots from our downloaded Windows Server ISO:
+   * Click **Customize Hardware...**
+   * Select **New CD/DVD (SATA)** from the left menu.
+   * Under **Connection** on the right side, choose **Use ISO image file**.
+   * Click **Browse...** and select your downloaded Windows Server 2022 `.iso` file.
+8. **Finish Up** — Click **Close**, then hit **Finish**!
+
+---
+
+## 💿 Installing & Setting Up Windows Server 2022
+
+Now that our VM container is ready, it's time to fire it up and install the OS:
+
+1. **Wait for the VM to automatically boot up** — Press any key **immediately** when prompted to boot from the CD/DVD.
+2. **Basic Setup** — Choose your preferred language, time zone, and keyboard layout, then click **Next** > **Install Now**.
+3. **Select Edition** — Make sure to select **Windows Server 2022 (Desktop Experience)** so you get the full Graphical User Interface (GUI) instead of just a command prompt!
+4. **Installation Type** — Pick **Custom: Install Windows only (advanced)**.
+5. **Select Storage Drive** — Double-check that you're picking the **30 GB** drive we allocated earlier in Step 6, then click **Next**.
+6. **Wait for Installation** — Grab a coffee ☕ while Windows finishes copying files and reboots.
+7. **Set Administrator Account** — Upon first startup, create a strong local **Administrator Password**.
+
+And that's it! 🎉 We now have a fresh Windows Server 2022 instance running smoothly in VMware.
+
+---
+
 
 ## ⚙️ Step 2: Preparing the Server
 
