@@ -32,7 +32,9 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 6. **Allocate Disk Space** — I set the maximum disk size to **30 GB** (which is plenty for a basic lab environment) and clicked **Next**.
 7. **Attach the ISO File** — Before finishing, we need to make sure the VM actually boots from our downloaded Windows Server ISO:
    * Click **Customize Hardware...**
+   
      ![Customize Hardware](Customize-Hardware.jpg)
+     
    * Select **New CD/DVD (SATA)** from the left menu.
    * Under **Connection** on the right side, choose **Use ISO image file**.
    * Click **Browse...** and select your downloaded Windows Server 2022 `.iso` file.
