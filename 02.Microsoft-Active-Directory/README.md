@@ -38,6 +38,9 @@ Here is how I configured the VM settings in VMware before booting up the OS:
    * Select **New CD/DVD (SATA)** from the left menu.
    * Under **Connection** on the right side, choose **Use ISO image file**.
    * Click **Browse...** and select your downloaded Windows Server 2022 `.iso` file.
+
+     ![ISO Image file](ISO-image-file.jpg)
+     
 8. **Finish Up** — Click **Close**, then hit **Finish**!
 
 ---
