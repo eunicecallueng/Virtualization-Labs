@@ -52,7 +52,7 @@ Now that our VM container is ready, it's time to fire it up and install the OS:
 1. **Wait for the VM to automatically boot up** — Press any key **immediately** when prompted to boot from the CD/DVD.
 2. **Basic Setup** — Choose your preferred language, time zone, and keyboard layout, then click **Next** > **Install Now**.
 
-     ![Setting up Win Server](Setting up Win Server.jpg)
+     ![Setting up Win Server](Setting-up-Win-Server.jpg)
   
 3. **Select Edition** — Make sure to select **Windows Server 2022 (Desktop Experience)** so you get the full Graphical User Interface (GUI) instead of just a command prompt!
 4. **Installation Type** — Pick **Custom: Install Windows only (advanced)**.
