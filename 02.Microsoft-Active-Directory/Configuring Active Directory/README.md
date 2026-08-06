@@ -59,7 +59,7 @@ Now that our VM container is ready, it's time to fire it up and install the OS:
 5. **Select Storage Drive** — Double-check that you're picking the **30 GB** drive we allocated earlier in Step 6, then click **Next**.
 6. **Wait for Installation** — Grab a coffee ☕ while Windows finishes copying files and reboots.
 
-     ![Installing]([Installing.jpg](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Installing.jpg))
+     ![Installing](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Installing.jpg)
 
 7. **Set Administrator Account** — Upon first startup, create a strong local **Administrator Password**.
 
