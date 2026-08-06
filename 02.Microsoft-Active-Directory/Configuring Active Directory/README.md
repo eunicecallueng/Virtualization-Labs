@@ -106,8 +106,11 @@ Best practice requires assigning a proper hostname and a static IP address befor
 ### Phase B: Promoting to Domain Controller
 1. Click the **Yellow Notification Flag** in Server Manager.
 2. Select **Promote this server to a domain controller**.
+
+   ![Promote to DC](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Promote-to-Domain-Controller.png)
+   
 3. Choose **Add a new forest** and enter your domain name:
-   * **Root Domain Name:** `lab.local`
+   * **Root Domain Name:** `nycehomelab.local`
 4. Set a strong **DSRM (Directory Services Restore Mode) Password**.
 5. Leave remaining options at default and click **Install**. The server will automatically reboot.
 
