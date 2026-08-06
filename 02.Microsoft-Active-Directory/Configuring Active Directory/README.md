@@ -51,11 +51,14 @@ Now that our VM container is ready, it's time to fire it up and install the OS:
 
 1. **Wait for the VM to automatically boot up** — Press any key **immediately** when prompted to boot from the CD/DVD.
 2. **Basic Setup** — Choose your preferred language, time zone, and keyboard layout, then click **Next** > **Install Now**.
-3. **Select Edition** — Make sure to select **Windows Server 2022 (Desktop Experience)** so you get the full Graphical User Interface (GUI) instead of just a command prompt!
-4. **Installation Type** — Pick **Custom: Install Windows only (advanced)**.
-5. **Select Storage Drive** — Double-check that you're picking the **30 GB** drive we allocated earlier in Step 6, then click **Next**.
-6. **Wait for Installation** — Grab a coffee ☕ while Windows finishes copying files and reboots.
-7. **Set Administrator Account** — Upon first startup, create a strong local **Administrator Password**.
+
+     ![Installing](Installing.jpg)
+  
+4. **Select Edition** — Make sure to select **Windows Server 2022 (Desktop Experience)** so you get the full Graphical User Interface (GUI) instead of just a command prompt!
+5. **Installation Type** — Pick **Custom: Install Windows only (advanced)**.
+6. **Select Storage Drive** — Double-check that you're picking the **30 GB** drive we allocated earlier in Step 6, then click **Next**.
+7. **Wait for Installation** — Grab a coffee ☕ while Windows finishes copying files and reboots.
+8. **Set Administrator Account** — Upon first startup, create a strong local **Administrator Password**.
 
 And that's it! 🎉 We now have a fresh Windows Server 2022 instance running smoothly in VMware.
 
