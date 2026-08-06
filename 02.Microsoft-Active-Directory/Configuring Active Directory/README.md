@@ -68,7 +68,20 @@ And that's it! 🎉 We now have a fresh Windows Server 2022 instance running smo
 ---
 
 
-## ⚙️ Step 2: Preparing the Server
+## ⚙️ Step 2: Preparing the Server (Pre-Requisites)
+
+> [!NOTE]
+> Best practice requires assigning a proper hostname and a static IP address **before** promoting the server to a Domain Controller.
+
+1. **Change Hostname:**
+   * Open **Server Manager** > **Local Server**.
+   * Click the default Computer Name (e.g., `WIN-XXXXXXX`).
+   * Rename the computer to your preference, I renamed it to **`NYCE-DC01`** and restart the virtual machine.
+
+2. **Configure Static IP Address:**
+   * Press `Win + R`, type `ncpa.cpl`, and press **Enter**.
+   * Right-click your network adapter > **Properties** > **Internet Protocol Version 4 (TCP/IPv4)**.
+   * Manually assign a static IP address (e.g., IP: `192.168.120.100`, Subnet: `255.255.255.0`, Gateway: `192.168.10.1`, Preferred DNS: `127.0.0.1`).
 
 Best practice requires assigning a proper hostname and a static IP address before promoting to a Domain Controller.
 
@@ -77,6 +90,8 @@ Best practice requires assigning a proper hostname and a static IP address befor
 2. Click the default computer name (e.g., `WIN-123456`).
 3. Change the computer name to `DC01` and restart the virtual machine.
 
+   ![Rename the server](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Rename-the-Server.jpg)
+
 ### 2. Configure Static IP Address
 1. Press `Win + R`, type `ncpa.cpl`, and hit **Enter**.
 2. Right-click your network adapter > **Properties** > **Internet Protocol Version 4 (TCP/IPv4)**.
@@ -84,10 +99,12 @@ Best practice requires assigning a proper hostname and a static IP address befor
 
 | Parameter | Value |
 | :--- | :--- |
-| **IP Address** | `192.168.10.10` |
+| **IP Address** | `192.168.120.100` |
 | **Subnet Mask** | `255.255.255.0` |
-| **Default Gateway** | `192.168.10.1` |
+| **Default Gateway** | `192.168.120.2` |
 | **Preferred DNS** | `127.0.0.1` *(Loopback to self)* |
+
+   ![Configure-Static-IP](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Configure-Static-IP.jpg)
 
 ---
 
