@@ -33,13 +33,13 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 7. **Attach the ISO File** — Before finishing, we need to make sure the VM actually boots from our downloaded Windows Server ISO:
    * Click **Customize Hardware...**
    
-     ![](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Customize-Hardware.jpg)
+     ![Customize Hardware](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Customize-Hardware.jpg)
      
    * Select **New CD/DVD (SATA)** from the left menu.
    * Under **Connection** on the right side, choose **Use ISO image file**.
    * Click **Browse...** and select your downloaded Windows Server 2022 `.iso` file.
 
-     ![ISO Image file](ISO-image-file.jpg)
+     ![ISO Image file](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/ISO-image-file.jpg)
      
 8. **Finish Up** — Click **Close**, then hit **Finish**!
 
@@ -52,7 +52,7 @@ Now that our VM container is ready, it's time to fire it up and install the OS:
 1. **Wait for the VM to automatically boot up** — Press any key **immediately** when prompted to boot from the CD/DVD.
 2. **Basic Setup** — Choose your preferred language, time zone, and keyboard layout, then click **Next** > **Install Now**.
 
-     ![Setting up Win Server](Setting-up-Win-Server.jpg)
+     ![Setting up Win Server](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/Setting-up-Win-Server.jpg)
   
 3. **Select Edition** — Make sure to select **Windows Server 2022 (Desktop Experience)** so you get the full Graphical User Interface (GUI) instead of just a command prompt!
 4. **Installation Type** — Pick **Custom: Install Windows only (advanced)**.
