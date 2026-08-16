@@ -16,7 +16,7 @@ Before starting with Active Directory, you'll need to have your hypervisor ready
 
 ---
 
-## 🚀 Setting Up the Virtual Machine Container
+## Setting Up the Virtual Machine Container
 
 Here is how I configured the VM settings in VMware before booting up the OS:
 
@@ -45,7 +45,7 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 
 ---
 
-## 💿 Installing & Setting Up Windows Server 2022
+## Installing & Setting Up Windows Server 2022
 
 Now that our VM container is ready, it's time to fire it up and install the OS:
 
@@ -68,7 +68,7 @@ And that's it! 🎉 We now have a fresh Windows Server 2022 instance running smo
 ---
 
 
-## ⚙️ Step 2: Preparing the Server (Pre-Requisites)
+## Step 2: Preparing the Server (Pre-Requisites)
 
 > [!NOTE]
 > Best practice requires assigning a proper hostname and a static IP address ***before*** promoting the server to a Domain Controller.
@@ -92,7 +92,7 @@ Best practice requires assigning a proper hostname and a static IP address befor
 
 ---
 
-## 🏰 Step 3: Installing & Promoting AD DS
+## Step 3: Installing & Promoting AD DS
 
 ### Phase A: Adding the AD DS Role
 1. In **Server Manager**, click **Manage** > **Add Roles and Features**.
@@ -116,13 +116,12 @@ Best practice requires assigning a proper hostname and a static IP address befor
 
 ---
 
-## 🎉 Step 4: Testing & Verification
+## Step 4: Testing & Verification
 
-1. Log into the server using domain administrator credentials: `LAB\Administrator`.
+1. Log into the server using domain administrator credentials: `NYCEHOMELAB\Administrator`.
 2. Open **Server Manager** > **Tools**.
 3. Verify the following tools are present and functional:
    - [x] Active Directory Users and Computers
    - [x] DNS Manager
    - [x] Group Policy Management
 
-Feel free to star ⭐️ this repo if you're also on your IT learning journey!
