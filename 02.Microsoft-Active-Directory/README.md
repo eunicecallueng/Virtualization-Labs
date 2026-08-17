@@ -4,7 +4,7 @@
 
 ###THIS PAGE IS UNDER CONSTRUCTION
 
-### 🖥️ On-Premises Active Directory Configuration & Lab Journey
+## # 🖥️ On-Premises Active Directory Configuration & Lab Journey
 
 In this lab, I built an enterprise-grade Active Directory environment from scratch—setting up core network infrastructure, designing a clean OU structure, provisioning user identities, and enforcing security GPOs.
 
