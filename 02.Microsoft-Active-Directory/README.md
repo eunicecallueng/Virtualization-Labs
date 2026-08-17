@@ -4,11 +4,11 @@
 
 ###THIS PAGE IS UNDER CONSTRUCTION
 
-## # 🖥️ On-Premises Active Directory Configuration & Lab Journey
+## 🖥️ On-Premises Active Directory Configuration & Lab Journey
 
 In this lab, I built an enterprise-grade Active Directory environment from scratch—setting up core network infrastructure, designing a clean OU structure, provisioning user identities, and enforcing security GPOs.
 
-| # | Exercise 🛠️ | Objective & Tasks Completed | Technologies & Skills | Key Takeaway 💡 | Demo / Media 🎥 |
+| # | **Exercise** 🛠️ | **Objective & Tasks Completed** | **Technologies & Skills** | **Key Takeaway** 💡 | **Demo / Media** 🎥 |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | **01** | **VMware & Windows Server 2022 Setup** | **Objective:** Build the lab's base hypervisor environment and deploy Windows Server 2022.<br><br>**Tasks Completed:**<br>• Configured VMware hypervisor environment.<br>• Allocated CPU, RAM, and storage resources.<br>• Performed a clean installation of Windows Server 2022 VM. | `VMware Workstation Pro, Windows Server 2022, Virtualization, Hardware Resource Management` | I learned how important it is to properly right-size VM resources so the server runs smoothly without straining host hardware! | [Read details](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/README.md) |
 | **02** | **AD DS Installation & Primary DC Setup** | **Objective:** Establish the core Active Directory domain (`nycehomelab.local`) and design an organized OU structure.<br><br>**Tasks Completed:**<br>• Set static IP (`192.168.1.10`) and local DNS settings.<br>• Installed AD DS role and promoted server to Primary DC (`NYCE-DC01`).<br>• Built structured OUs for Users, Groups, and Workstations.<br>• Provisioned initial domain admin credentials (`NYCEHOMELAB\Administrator`). | Active Directory Domain Services (AD DS), DNS, Static IP Networking, OU Design, Windows Server 2022 | I learned how deeply Active Directory relies on DNS, and how building a clean OU layout from day one makes managing users and GPOs much easier later on! | [Watch Demo](./demo/ex02.gif) |
