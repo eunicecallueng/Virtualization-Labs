@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VMware Workstation Pro Lab | Technical Documentation</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text: #e2e8f0;
+            --accent: #38bdf8;
+            --border: #334155;
+            --badge: #0284c7;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+        }
+        a { color: var(--accent); text-decoration: none; font-weight: 500; }
+        a:hover { text-decoration: underline; }
+        .nav-back { margin-bottom: 24px; display: inline-block; font-size: 0.95rem; }
+        header { border-bottom: 1px solid var(--border); padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #ffffff; margin: 12px 0 8px 0; font-size: 2rem; }
+        .badge { background: var(--badge); color: #fff; padding: 4px 12px; border-radius: 4px; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; }
+        .card { background: var(--card-bg); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 24px; }
+        h2 { color: var(--accent); margin-top: 0; border-bottom: 1px solid var(--border); padding-bottom: 8px; font-size: 1.25rem; }
+        ul { padding-left: 20px; margin-bottom: 0; }
+        li { margin-bottom: 8px; }
+        code { background: #0f172a; padding: 2px 6px; border-radius: 4px; font-family: monospace; color: #f43f5e; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+    <a href="https://eunicecallueng.github.io/" class="nav-back">&larr; Back to Main Portfolio</a>
+
+    <header>
+        <span class="badge">Lab Documentation</span>
+        <h1>01. VMware Workstation Pro Setup</h1>
+        <p>Comprehensive guide on virtual network configuration, host resource allocation, and baseline VM provisioning.</p>
+    </header>
+
+    <section class="card">
+        <h2>1. Objective & Overview</h2>
+        <p>This lab demonstrates the configuration of a local virtualization environment using VMware Workstation Pro. It serves as the foundation for deploying domain infrastructure, client machines, and network monitoring endpoints.</p>
+    </section>
+
+    <section class="card">
+        <h2>2. Virtual Network Topology</h2>
+        <ul>
+            <li><strong>VMnet0 (Bridged):</strong> Attached to host physical NIC for external communication.</li>
+            <li><strong>VMnet8 (NAT):</strong> Isolated subnet <code>192.168.10.0/24</code> for lab environments.</li>
+            <li><strong>Virtual DHCP:</strong> Disabled to allow static IP assignment via Windows Server / Active Directory.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>3. Provisioned Virtual Machines</h2>
+        <ul>
+            <li><strong>Windows Server 2022:</strong> Primary Domain Controller & DNS Gateway.</li>
+            <li><strong>Windows 11 Workstation:</strong> Client endpoint for domain join and policy verification.</li>
+            <li><strong>Linux / Zabbix Server:</strong> Dedicated monitoring instance for active network logging.</li>
+        </ul>
+    </section>
+
+    <section class="card">
+        <h2>4. Key Configurations Performed</h2>
+        <ul>
+            <li>Configured custom virtual switches via <strong>Virtual Network Editor</strong>.</li>
+            <li>Enabled Intel VT-x / AMD-V hardware acceleration for nested workloads.</li>
+            <li>Set up static MAC addresses and snapshots for state recovery during testing.</li>
+        </ul>
+    </section>
+
+</body>
+</html>
