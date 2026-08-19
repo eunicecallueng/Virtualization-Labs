@@ -24,7 +24,7 @@ Here is how I configured the VM settings in VMware before booting up the OS:
 2. **Choose Configuration Type** — Since this is just for my lab experiment, I went with **Typical (recommended)** and clicked **Next**.
 3. **OS Installation Selection** — I selected **"I will install the operating system later"**.
  
-   ![I will install the operating system later](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring%20Active%20Directory/Screenshots/install-os-later.jpg)
+   ![I will install the operating system later](https://github.com/eunicecallueng/Virtualization-Labs/blob/main/02.Microsoft-Active-Directory/Configuring-Active-Directory/Screenshots/install-os-later.jpg)
 
    > 💡 *Pro-Tip:* Doing this skips VMware's "Easy Install" feature, which often causes annoying errors during Windows Server installation!
 4. **Select Guest OS** — I picked **Microsoft Windows**, and set the version to **Windows Server 2022**, then hit **Next**.
