@@ -135,6 +135,6 @@ To verify this, you can check your **Network Connections**:
 This lab is for **practice documentation only**.  
 I’m using it to:  
 - Learn how to set up virtualization environments.  
-- Prepare a base VM for my other labs (GNS3, Wireshark, Zabbix).  
+- Prepare a base VM for my other labs (GNS3, Wireshark, Zabbix, Active Directory/Entra ID).  
 - Share reproducible steps for anyone following along.  
 
